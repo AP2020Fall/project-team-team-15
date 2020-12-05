@@ -9,4 +9,9 @@ public class Board {
     final static int BLACK = 2;
     final static int BLANK = 3;
 
+    private int[][] hEdge;
+    private int[][] vEdge;
+    private int[][] box;
+    private int n, redScore, blueScore;
+
 }
