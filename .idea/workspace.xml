@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of Box we define later in constructor using cloned (the object of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later.">
-      <change beforePath="$PROJECT_DIR$/untitled/src/dot_and_box/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dot_and_box/Board.java" afterDir="false" />
-    </list>
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Be careful this is a UPDATE for my clone method&#10;we initialize a red and also blue cart for the user &#10;we initialize this as:&#10;&#10;     cloned.redScore = redScore;&#10;     cloned.blueScore = blueScore;&#10;        &#10; so that I'm going to update this method later." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607184521338</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Be careful this is a UPDATE for my clone method&#10;we initialize a red and also blue cart for the user &#10;we initialize this as:&#10;&#10;     cloned.redScore = redScore;&#10;     cloned.blueScore = blueScore;&#10;        &#10; so that I'm going to update this method later.">
+      <created>1607184906525</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607184906525</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +235,8 @@
     <MESSAGE value="This is the method clone.In this method at first we just define how many method we want from the parameter n that we get from constructor later." />
     <MESSAGE value="After all&#10;be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of vEdge we define later in constructor using cloned (the coject of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
     <MESSAGE value="Be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of Box we define later in constructor using cloned (the object of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
-    <option name="LAST_COMMIT_MESSAGE" value="Be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of Box we define later in constructor using cloned (the object of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
+    <MESSAGE value="Be careful this is a UPDATE for my clone method&#10;we initialize a red and also blue cart for the user &#10;we initialize this as:&#10;&#10;     cloned.redScore = redScore;&#10;     cloned.blueScore = blueScore;&#10;        &#10; so that I'm going to update this method later." />
+    <option name="LAST_COMMIT_MESSAGE" value="Be careful this is a UPDATE for my clone method&#10;we initialize a red and also blue cart for the user &#10;we initialize this as:&#10;&#10;     cloned.redScore = redScore;&#10;     cloned.blueScore = blueScore;&#10;        &#10; so that I'm going to update this method later." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -250,10 +256,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607184544380">
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607184929571">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607184544380" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607184929571" />
     <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607178375566">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
