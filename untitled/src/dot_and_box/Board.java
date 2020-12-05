@@ -1,6 +1,7 @@
 package dot_and_box;
 import java.awt.*;
 import java.util.ArrayList;
+import static java.util.Arrays.fill;
 
 public class Board {
 
@@ -14,4 +15,14 @@ public class Board {
     private int[][] box;
     private int n, redScore, blueScore;
 
+    public Board(int n) {
+        hEdge = new int[n-1][n];
+        vEdge = new int[n][n-1];
+        box = new int[n-1][n-1];
+        fill(hEdge,BLANK);
+        fill(vEdge,BLANK);
+        fill(box,BLANK);
+        this.n = n;
+        redScore = blueScore = 0;
+    }
 }
