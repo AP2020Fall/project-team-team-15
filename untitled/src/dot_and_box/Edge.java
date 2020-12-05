@@ -11,4 +11,9 @@ public class Edge{
         this.horizontal = horizontal;
     }
 
+
+    public boolean isHorizontal() {
+        return horizontal;
+    }
+
 }

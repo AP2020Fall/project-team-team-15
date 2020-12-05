@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Update README.md&#10;initialize the variable" />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Update README.md&#10;initialize the constructor">
+      <change beforePath="$PROJECT_DIR$/untitled/src/dot_and_box/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dot_and_box/Edge.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607178287767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update README.md&#10;initialize the constructor">
+      <created>1607178525951</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607178525951</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,7 +120,8 @@
     <MESSAGE value="initilize" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Update README.md&#10;initialize the variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md&#10;initialize the variable" />
+    <MESSAGE value="Update README.md&#10;initialize the constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md&#10;initialize the constructor" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -127,10 +137,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="784" y="413" key="MultipleFileMergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178270079" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607178398717">
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607178587444">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607178398717" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607178587444" />
     <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607178375566">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
