@@ -30,4 +30,8 @@ public class Edge{
         return y;
     }
 
+    @Override
+    public String toString() {
+        return ((horizontal ? "H " : "V ") + x + " " + y);
+    }
 }
