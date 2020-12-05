@@ -39,5 +39,7 @@ public class Board {
 
         cloned.redScore = redScore;
         cloned.blueScore = blueScore;
+
+        return cloned;
     }
 }
