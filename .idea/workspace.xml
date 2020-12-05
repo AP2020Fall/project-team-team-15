@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="initialize the default constructor&#10;if we don't initialize the variable,&#10;the default constructor will be initialize the default value." />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="I have INITIALIZE the Getter method&#10;that will help us to get the parameter x from the constructor." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607179290620</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="I have INITIALIZE the Getter method&#10;that will help us to get the parameter x from the constructor.">
+      <created>1607179590529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607179590529</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +148,8 @@
     <MESSAGE value="Update README.md&#10;initialize the constructor" />
     <MESSAGE value="Update READMEcheck that is horizontal or not" />
     <MESSAGE value="initialize the default constructor&#10;if we don't initialize the variable,&#10;the default constructor will be initialize the default value." />
-    <option name="LAST_COMMIT_MESSAGE" value="initialize the default constructor&#10;if we don't initialize the variable,&#10;the default constructor will be initialize the default value." />
+    <MESSAGE value="I have INITIALIZE the Getter method&#10;that will help us to get the parameter x from the constructor." />
+    <option name="LAST_COMMIT_MESSAGE" value="I have INITIALIZE the Getter method&#10;that will help us to get the parameter x from the constructor." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -157,10 +165,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="784" y="413" key="MultipleFileMergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178270079" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607179315232">
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607179609415">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607179315232" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607179609415" />
     <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607178375566">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>

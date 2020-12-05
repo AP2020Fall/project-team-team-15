@@ -25,4 +25,9 @@ public class Edge{
         return x;
     }
 
+
+    public int getY() {
+        return y;
+    }
+
 }
