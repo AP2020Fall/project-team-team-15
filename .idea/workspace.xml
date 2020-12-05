@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="After all&#10;be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of vEdge we define later in constructor using cloned (the coject of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later.">
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of Box we define later in constructor using cloned (the object of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later.">
       <change beforePath="$PROJECT_DIR$/untitled/src/dot_and_box/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dot_and_box/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607183950974</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of Box we define later in constructor using cloned (the object of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later.">
+      <created>1607184521338</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607184521338</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +229,8 @@
     <MESSAGE value="NOW the line between 18 to 27 is for the constructor,IN this method e will initialize the parameter but not all them,At first we cant do this we just know the parameter n.&#10;For the ArrayList &amp; all the other parameter except n we just define them in constructor BUT NOT initialize CAUSE we don,t now them at first." />
     <MESSAGE value="This is the method clone.In this method at first we just define how many method we want from the parameter n that we get from constructor later." />
     <MESSAGE value="After all&#10;be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of vEdge we define later in constructor using cloned (the coject of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
-    <option name="LAST_COMMIT_MESSAGE" value="After all&#10;be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of vEdge we define later in constructor using cloned (the coject of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
+    <MESSAGE value="Be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of Box we define later in constructor using cloned (the object of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
+    <option name="LAST_COMMIT_MESSAGE" value="Be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of Box we define later in constructor using cloned (the object of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -242,10 +250,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607183961697">
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607184544380">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607183961697" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607184544380" />
     <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607178375566">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
