@@ -25,4 +25,9 @@ public class Board {
         this.n = n;
         redScore = blueScore = 0;
     }
+
+    public Board clone() {
+        Board cloned = new Board(n);
+
+    }
 }
