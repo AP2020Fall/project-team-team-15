@@ -20,4 +20,9 @@ public class Edge{
         x = y = -1;
         horizontal = false;
     }
+
+    public int getX() {
+        return x;
+    }
+
 }
