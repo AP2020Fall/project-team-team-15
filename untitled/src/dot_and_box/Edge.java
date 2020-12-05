@@ -16,4 +16,8 @@ public class Edge{
         return horizontal;
     }
 
+    Edge() {
+        x = y = -1;
+        horizontal = false;
+    }
 }
