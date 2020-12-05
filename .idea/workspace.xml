@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Hi dear friend:&#10;At first I initialize(package dot_and_box;) that shown us the package name of this project;If we dont mention this line the project wouldn't be RUN.Then we import two different package;First we used All the awt in java.Second we import JAVA'S ArrayList.After all these changes we create the class Board.We initialize all final static that we couldn't change them.we use them for the color we want sooner." />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the will helped you that I should'nt explain more." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607181819312</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the will helped you that I should'nt explain more.">
+      <created>1607182309725</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607182309725</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +187,8 @@
     <MESSAGE value="ALSO,&#10;I have INITIALIZE the Getter method&#10;that will help us to get the parameter Y from the constructor." />
     <MESSAGE value="THIS is the override method for constructor ,&#10;override will help us to get the value from constructor,&#10;if we don't use override,we will see that while getting the parameter &#10;from the constructor,the value that will return is not what we want,&#10;it's the memory place :(" />
     <MESSAGE value="Hi dear friend:&#10;At first I initialize(package dot_and_box;) that shown us the package name of this project;If we dont mention this line the project wouldn't be RUN.Then we import two different package;First we used All the awt in java.Second we import JAVA'S ArrayList.After all these changes we create the class Board.We initialize all final static that we couldn't change them.we use them for the color we want sooner." />
-    <option name="LAST_COMMIT_MESSAGE" value="Hi dear friend:&#10;At first I initialize(package dot_and_box;) that shown us the package name of this project;If we dont mention this line the project wouldn't be RUN.Then we import two different package;First we used All the awt in java.Second we import JAVA'S ArrayList.After all these changes we create the class Board.We initialize all final static that we couldn't change them.we use them for the color we want sooner." />
+    <MESSAGE value="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the will helped you that I should'nt explain more." />
+    <option name="LAST_COMMIT_MESSAGE" value="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the will helped you that I should'nt explain more." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -200,10 +208,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607181839800">
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607182319052">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607181839800" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607182319052" />
     <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607178375566">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
