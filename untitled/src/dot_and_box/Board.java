@@ -48,4 +48,18 @@ public class Board {
             for(int j=0; j<array[i].length; j++)
                 array[i][j]=val;
     }
+
+    public int getSize() { return n; }
+
+    public int getRedScore() {
+        return redScore;
+    }
+
+    public int getBlueScore() {
+        return blueScore;
+    }
+    public int getScore(int color) {
+        if(color == RED) return redScore;
+        else return blueScore;
+    }
 }

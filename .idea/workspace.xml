@@ -26,6 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Now we create a method that get 2 parameter(An ArrayList &amp; An integer value);look it is private access modifier that we can use it from other class, package,... JUST WE CAN USE THIS METHOD FROM HERE(I MEAN HERE IS THE CLASSBWE WE ARE IN),we use this method to initialize a value of an arraylist.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/src/dot_and_box/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dot_and_box/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +63,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -234,12 +238,12 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initilize" />
@@ -265,6 +269,10 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="90" key="#Project_Structure" timestamp="1607431281307">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="320" y="90" key="#Project_Structure/0.23.1440.803@0.23.1440.803" timestamp="1607431281307" />
     <state x="100" y="123" width="1592" height="832" key="DiffContextDialog" timestamp="1607177727426">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
