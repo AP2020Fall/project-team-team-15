@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Now we create a method that get 2 parameter(An ArrayList &amp; An integer value);look it is private access modifier that we can use it from other class, package,... JUST WE CAN USE THIS METHOD FROM HERE(I MEAN HERE IS THE CLASSBWE WE ARE IN),we use this method to initialize a value of an arraylist.">
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/src/dot_and_box/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/dot_and_box/Board.java" afterDir="false" />
     </list>
@@ -54,6 +54,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1lEyPOsR62fjLfg5dGNGtyZ8zwU" />
   <component name="ProjectViewState">
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607186401901</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add getSize getRedScore getBlueScore getScore">
+      <created>1607432085106</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607432085106</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,7 +273,8 @@
     <MESSAGE value="Be careful this is a UPDATE for my clone method&#10;we initialize a red and also blue cart for the user &#10;we initialize this as:&#10;&#10;     cloned.redScore = redScore;&#10;     cloned.blueScore = blueScore;&#10;        &#10; so that I'm going to update this method later." />
     <MESSAGE value="Be careful this is a UPDATE for my clone method&#10;&#10;then we return this cloned easily" />
     <MESSAGE value="Now we create a method that get 2 parameter(An ArrayList &amp; An integer value);look it is private access modifier that we can use it from other class, package,... JUST WE CAN USE THIS METHOD FROM HERE(I MEAN HERE IS THE CLASSBWE WE ARE IN),we use this method to initialize a value of an arraylist." />
-    <option name="LAST_COMMIT_MESSAGE" value="Now we create a method that get 2 parameter(An ArrayList &amp; An integer value);look it is private access modifier that we can use it from other class, package,... JUST WE CAN USE THIS METHOD FROM HERE(I MEAN HERE IS THE CLASSBWE WE ARE IN),we use this method to initialize a value of an arraylist." />
+    <MESSAGE value="Add getSize getRedScore getBlueScore getScore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add getSize getRedScore getBlueScore getScore" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -273,6 +282,10 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="320" y="90" key="#Project_Structure/0.23.1440.803@0.23.1440.803" timestamp="1607431281307" />
+    <state x="0" y="27" key="CommitChangelistDialog2" timestamp="1607432084537">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="0" y="27" key="CommitChangelistDialog2/0.23.1440.803@0.23.1440.803" timestamp="1607432084537" />
     <state x="100" y="123" width="1592" height="832" key="DiffContextDialog" timestamp="1607177727426">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
@@ -289,10 +302,15 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607186421353">
-      <screen x="0" y="23" width="1792" height="1032" />
+    <state x="399" y="223" key="Vcs.Push.Dialog.v2" timestamp="1607432597330">
+      <screen x="0" y="23" width="1440" height="805" />
     </state>
+    <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1607432597330" />
     <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607186421353" />
+    <state x="509" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607432159526">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="509" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.803@0.23.1440.803" timestamp="1607432159526" />
     <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607178375566">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>

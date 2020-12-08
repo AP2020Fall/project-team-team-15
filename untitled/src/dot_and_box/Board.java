@@ -62,4 +62,23 @@ public class Board {
         if(color == RED) return redScore;
         else return blueScore;
     }
+    public static int toggleColor(int color) {
+        if(color == RED)
+            return BLUE;
+        else
+            return RED;
+    }
+    public ArrayList<Edge> getAvailableMoves() {
+        ArrayList<Edge> ret = new ArrayList<Edge>();
+        for(int i=0; i<(n-1);i++)
+            for(int j=0; j<n; j++)
+                if(hEdge[i][j] == BLANK)
+                    ret.add(new Edge(i,j,true));
+        for(int i=0; i<n; i++)
+            for(int j=0; j<(n-1); j++)
+                if(vEdge[i][j] == BLANK)
+                    ret.add(new Edge(i,j,false));
+        return ret;
+    }
+
 }
