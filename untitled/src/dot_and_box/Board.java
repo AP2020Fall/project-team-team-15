@@ -80,5 +80,22 @@ public class Board {
                     ret.add(new Edge(i,j,false));
         return ret;
     }
+    public ArrayList<Point> setHEdge(int x, int y, int color) {
+        hEdge[x][y]=BLACK;
+        ArrayList<Point> ret = new ArrayList<Point>();
+        if(y<(n-1) && vEdge[x][y]==BLACK && vEdge[x+1][y]==BLACK && hEdge[x][y+1]==BLACK) {
+            box[x][y]=color;
+            ret.add(new Point(x,y));
+            if(color == RED) redScore++;
+            else blueScore++;
+        }
+        if(y>0 && vEdge[x][y-1]==BLACK && vEdge[x+1][y-1]==BLACK && hEdge[x][y-1]==BLACK) {
+            box[x][y-1]=color;
+            ret.add(new Point(x,y-1));
+            if(color == RED) redScore++;
+            else blueScore++;
+        }
+        return ret;
+    }
 
 }
