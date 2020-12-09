@@ -114,5 +114,23 @@ public class Board {
         }
         return ret;
     }
+    public boolean isComplete() {
+        return (redScore + blueScore) == (n - 1) * (n - 1);
+    }
+
+    public int getWinner() {
+        if(redScore > blueScore) return RED;
+        else if(redScore < blueScore) return BLUE;
+        else return BLANK;
+    }
+
+    public Board getNewBoard(Edge edge, int color) {
+        Board ret = clone();
+        if(edge.isHorizontal())
+            ret.setHEdge(edge.getX(), edge.getY(), color);
+        else
+            ret.setVEdge(edge.getX(), edge.getY(), color);
+        return ret;
+    }
 
 }
