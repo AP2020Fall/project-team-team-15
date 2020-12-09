@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Add packages" />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Add Player">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607176521127</updated>
-      <workItem from="1607524621231" duration="939000" />
+      <workItem from="1607524621231" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1607176930041</created>
@@ -262,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607525429767</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add Player">
+      <created>1607525653151</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607525653151</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +302,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initilize" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Update README.md&#10;initialize the variable" />
     <MESSAGE value="Update README.md&#10;initialize the constructor" />
@@ -318,7 +326,8 @@
     <MESSAGE value="Add setVEdge" />
     <MESSAGE value="Change name" />
     <MESSAGE value="Add packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add packages" />
+    <MESSAGE value="Add Player" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Player" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -356,10 +365,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1607524739108">
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1607525669963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607524739108" />
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607525669963" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1607432597330" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
