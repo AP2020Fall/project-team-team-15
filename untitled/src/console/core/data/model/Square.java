@@ -14,27 +14,31 @@ public class Square implements Box {
 
     @Override
     public Player getOwner() {
-        return null;
+        return this.owner;
     }
+
 
     @Override
     public Player getTop() {
-        return null;
+        return this.top;
     }
+
 
     @Override
     public Player getBottom() {
-        return null;
+        return this.bottom;
     }
+
 
     @Override
     public Player getLeft() {
-        return null;
+        return this.left;
     }
+
 
     @Override
     public Player getRight() {
-        return null;
+        return this.right;
     }
 
     @Override
