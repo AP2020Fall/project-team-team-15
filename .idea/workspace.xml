@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Create Game" />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Add playerJoin, playerLeave methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/console/core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/console/core/Game.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607176521127</updated>
-      <workItem from="1607524621231" duration="2499000" />
+      <workItem from="1607524621231" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1607176930041</created>
@@ -341,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607527134700</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add playerJoin, playerLeave methods">
+      <created>1607527317310</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1607527317310</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +382,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the name will helped you that I should'nt explain more. (update commit)" />
     <MESSAGE value="NOW the line between 18 to 27 is for the constructor,IN this method e will initialize the parameter but not all them,At first we cant do this we just know the parameter n.&#10;For the ArrayList &amp; all the other parameter except n we just define them in constructor BUT NOT initialize CAUSE we don,t now them at first." />
     <MESSAGE value="This is the method clone.In this method at first we just define how many method we want from the parameter n that we get from constructor later." />
     <MESSAGE value="After all&#10;be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of vEdge we define later in constructor using cloned (the coject of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
@@ -397,7 +406,8 @@
     <MESSAGE value="Create List2D" />
     <MESSAGE value="Create Board" />
     <MESSAGE value="Create Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Game" />
+    <MESSAGE value="Add playerJoin, playerLeave methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add playerJoin, playerLeave methods" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
