@@ -23,4 +23,26 @@ public class Game<B extends Box> {
         this.gameBoard = new Board<>(boxes);
         availableMoves = 2 * boxes.length * (boxes.length + 1);
     }
+
+    public Game(Class<B> type, int size) {
+        this.gameBoard = new Board<>(type, size);
+        this.availableMoves = 2 * size * (size + 1);
+    }
+
+
+    public void playerJoin(Player newPlayer) {
+        players.addLast(newPlayer);
+    }
+
+
+    public void playerLeave(Player player) {
+        if (players.contains(player))
+            players.remove(player);
+        if (numOfPlayers() < 2)
+            availableMoves = 0;
+    }
+
+    public int numOfPlayers() {
+        return players.size();
+    }
 }
