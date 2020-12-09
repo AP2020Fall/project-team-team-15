@@ -43,21 +43,44 @@ public class Square implements Box {
 
     @Override
     public boolean setTop(Player top) {
+        this.top = top;
+        if (right != null && bottom != null && left != null) {
+            this.owner = top;
+            return true;
+        }
         return false;
     }
+
 
     @Override
     public boolean setBottom(Player bottom) {
+        this.bottom = bottom;
+        if (top != null && right != null && left != null) {
+            this.owner = bottom;
+            return true;
+        }
         return false;
     }
+
 
     @Override
     public boolean setLeft(Player left) {
+        this.left = left;
+        if (top != null && bottom != null && right != null) {
+            this.owner = left;
+            return true;
+        }
         return false;
     }
 
+
     @Override
     public boolean setRight(Player right) {
+        this.right = right;
+        if (top != null && bottom != null && left != null) {
+            this.owner = right;
+            return true;
+        }
         return false;
     }
 }
