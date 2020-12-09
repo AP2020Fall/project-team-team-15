@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Add Player">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Add methods to Player" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607176521127</updated>
-      <workItem from="1607524621231" duration="1255000" />
+      <workItem from="1607524621231" duration="1556000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1607176930041</created>
@@ -271,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607525653151</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Update InvalidMoveException">
+      <created>1607525964850</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607525964850</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add methods to Player">
+      <created>1607526185183</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607526185183</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,8 +314,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update README.md" />
-    <MESSAGE value="Update README.md&#10;initialize the variable" />
     <MESSAGE value="Update README.md&#10;initialize the constructor" />
     <MESSAGE value="Update READMEcheck that is horizontal or not" />
     <MESSAGE value="initialize the default constructor&#10;if we don't initialize the variable,&#10;the default constructor will be initialize the default value." />
@@ -327,7 +337,9 @@
     <MESSAGE value="Change name" />
     <MESSAGE value="Add packages" />
     <MESSAGE value="Add Player" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Player" />
+    <MESSAGE value="Update InvalidMoveException" />
+    <MESSAGE value="Add methods to Player" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add methods to Player" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
