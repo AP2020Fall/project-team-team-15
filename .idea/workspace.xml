@@ -25,8 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Create ConsolePlayer">
-      <change afterPath="$PROJECT_DIR$/untitled/src/console/core/data/model/Square.java" afterDir="false" />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Create List2D">
+      <change afterPath="$PROJECT_DIR$/untitled/src/console/core/data/model/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607176521127</updated>
-      <workItem from="1607524621231" duration="1859000" />
+      <workItem from="1607524621231" duration="2187000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1607176930041</created>
@@ -300,7 +300,35 @@
       <option name="project" value="LOCAL" />
       <updated>1607526342582</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Creat Square">
+      <created>1607526540973</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607526540973</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add getters to Square">
+      <created>1607526612716</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1607526612716</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Add setters to Square">
+      <created>1607526641080</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1607526641080</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Create List2D">
+      <created>1607526805244</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607526805244</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,10 +359,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initialize the default constructor&#10;if we don't initialize the variable,&#10;the default constructor will be initialize the default value." />
-    <MESSAGE value="I have INITIALIZE the Getter method&#10;that will help us to get the parameter x from the constructor." />
-    <MESSAGE value="ALSO,&#10;I have INITIALIZE the Getter method&#10;that will help us to get the parameter Y from the constructor." />
-    <MESSAGE value="THIS is the override method for constructor ,&#10;override will help us to get the value from constructor,&#10;if we don't use override,we will see that while getting the parameter &#10;from the constructor,the value that will return is not what we want,&#10;it's the memory place :(" />
     <MESSAGE value="Hi dear friend:&#10;At first I initialize(package dot_and_box;) that shown us the package name of this project;If we dont mention this line the project wouldn't be RUN.Then we import two different package;First we used All the awt in java.Second we import JAVA'S ArrayList.After all these changes we create the class Board.We initialize all final static that we couldn't change them.we use them for the color we want sooner." />
     <MESSAGE value="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the will helped you that I should'nt explain more." />
     <MESSAGE value="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the name will helped you that I should'nt explain more. (update commit)" />
@@ -356,7 +380,11 @@
     <MESSAGE value="Add methods to Player" />
     <MESSAGE value="Create interface Box" />
     <MESSAGE value="Create ConsolePlayer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create ConsolePlayer" />
+    <MESSAGE value="Creat Square" />
+    <MESSAGE value="Add getters to Square" />
+    <MESSAGE value="Add setters to Square" />
+    <MESSAGE value="Create List2D" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create List2D" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
