@@ -97,5 +97,22 @@ public class Board {
         }
         return ret;
     }
+    public ArrayList<Point> setVEdge(int x, int y, int color) {
+        vEdge[x][y]=BLACK;
+        ArrayList<Point> ret = new ArrayList<Point>();
+        if(x<(n-1) && hEdge[x][y]==BLACK && hEdge[x][y+1]==BLACK && vEdge[x+1][y]==BLACK) {
+            box[x][y]=color;
+            ret.add(new Point(x,y));
+            if(color == RED) redScore++;
+            else blueScore++;
+        }
+        if(x>0 && hEdge[x-1][y]==BLACK && hEdge[x-1][y+1]==BLACK && vEdge[x-1][y]==BLACK) {
+            box[x-1][y]=color;
+            ret.add(new Point(x-1,y));
+            if(color == RED) redScore++;
+            else blueScore++;
+        }
+        return ret;
+    }
 
 }
