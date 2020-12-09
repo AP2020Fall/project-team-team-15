@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Add methods to Player" />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Create ConsolePlayer">
+      <change afterPath="$PROJECT_DIR$/untitled/src/console/core/data/model/Square.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607176521127</updated>
-      <workItem from="1607524621231" duration="1556000" />
+      <workItem from="1607524621231" duration="1859000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1607176930041</created>
@@ -283,7 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607526185183</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Create interface Box">
+      <created>1607526262645</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1607526262645</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Create ConsolePlayer">
+      <created>1607526342582</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607526342582</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,8 +331,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update README.md&#10;initialize the constructor" />
-    <MESSAGE value="Update READMEcheck that is horizontal or not" />
     <MESSAGE value="initialize the default constructor&#10;if we don't initialize the variable,&#10;the default constructor will be initialize the default value." />
     <MESSAGE value="I have INITIALIZE the Getter method&#10;that will help us to get the parameter x from the constructor." />
     <MESSAGE value="ALSO,&#10;I have INITIALIZE the Getter method&#10;that will help us to get the parameter Y from the constructor." />
@@ -339,7 +354,9 @@
     <MESSAGE value="Add Player" />
     <MESSAGE value="Update InvalidMoveException" />
     <MESSAGE value="Add methods to Player" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add methods to Player" />
+    <MESSAGE value="Create interface Box" />
+    <MESSAGE value="Create ConsolePlayer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create ConsolePlayer" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
