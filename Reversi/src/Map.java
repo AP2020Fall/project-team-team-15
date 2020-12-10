@@ -11,8 +11,20 @@ public class Map {
                 if (Main.nuts[i * 8 + (j + 1)] == 1) {
                     System.out.print("| ");
                     System.out.print(ANSI_RED + "O" + ANSI_RESET + " ");
+                } else if (Main.nuts[i * 8 + (j + 1)] == 2) {
+                    System.out.print("| ");
+                    System.out.print(ANSI_WHITE + "O" + ANSI_RESET + " ");
+                } else if (Main.nuts[i * 8 + (j + 1)] == 3) {
+                    System.out.print("| " + "-" + " ");
+
+                } else {
+                    System.out.print("| " + " " + " ");
+                }
+                if (j == 7) {
+                    System.out.print("|" + " " + (i + 1));
                 }
             }
         }
+        System.out.println("\n---------------------------------");   //last line
     }
 }
