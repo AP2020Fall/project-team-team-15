@@ -76,5 +76,22 @@ public class Main {
                 }
             }
             System.out.println();
+
+            for (int col = 0; col < size; col++) { // print vertical lines
+                if (game.getVerticalLine(row, col) != null) {
+                    System.out.print("|");
+                }
+                Player owner = game.getBoxOwner(row, col);
+                if (owner != null) {
+                    System.out.print(" " + owner.getName().substring(0, 1).toUpperCase() + " ");
+                } else {
+                    System.out.print("   ");
+                }
+                if (col == size - 1) {
+                    if (game.getVerticalLine(row, col + 1) != null) {
+                        System.out.print("|");
+                    }
+                }
+            }
 }
 
