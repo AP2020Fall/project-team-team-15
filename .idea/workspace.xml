@@ -25,8 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="In while loop every thing is clear,so I want to explain it:&#10;the while loop will continue until the game ended;&#10;first of all we show the names of player (I will create the  the class later),then we show you the h|v column with the signichure you should enter (we defined it in other class);&#10;now we get the command,in if command we will show you what happened if the user put h ,exit or also h;&#10;in every single step we throw an exception too,">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="this for showing player that we  have talk before,first we get number of player in line 59,after that you">
       <change beforePath="$PROJECT_DIR$/untitled/src/console/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/console/controller/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -422,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607613732097</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="this for showing player that we  have talk before,first we get number of player in line 59,after that you">
+      <created>1607620099773</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1607620099773</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +459,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Now we create a method that get 2 parameter(An ArrayList &amp; An integer value);look it is private access modifier that we can use it from other class, package,... JUST WE CAN USE THIS METHOD FROM HERE(I MEAN HERE IS THE CLASSBWE WE ARE IN),we use this method to initialize a value of an arraylist." />
     <MESSAGE value="Add getSize getRedScore getBlueScore getScore" />
     <MESSAGE value="Add toggleColor getAvailableMoves" />
     <MESSAGE value="Add setHEdge" />
@@ -478,7 +483,8 @@
     <MESSAGE value="Update Map" />
     <MESSAGE value="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one," />
     <MESSAGE value="In while loop every thing is clear,so I want to explain it:&#10;the while loop will continue until the game ended;&#10;first of all we show the names of player (I will create the  the class later),then we show you the h|v column with the signichure you should enter (we defined it in other class);&#10;now we get the command,in if command we will show you what happened if the user put h ,exit or also h;&#10;in every single step we throw an exception too," />
-    <option name="LAST_COMMIT_MESSAGE" value="In while loop every thing is clear,so I want to explain it:&#10;the while loop will continue until the game ended;&#10;first of all we show the names of player (I will create the  the class later),then we show you the h|v column with the signichure you should enter (we defined it in other class);&#10;now we get the command,in if command we will show you what happened if the user put h ,exit or also h;&#10;in every single step we throw an exception too," />
+    <MESSAGE value="this for showing player that we  have talk before,first we get number of player in line 59,after that you" />
+    <option name="LAST_COMMIT_MESSAGE" value="this for showing player that we  have talk before,first we get number of player in line 59,after that you" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">

@@ -61,5 +61,20 @@ public class Main {
             System.out.println(" -> " + game.getPlayer(i) + " : " + game.numOfBoxes(game.getPlayer(i)));
     }
 
+    private static void showBoard(Game<Square> game) {
+        int size = game.boardSize();
+        for (int row = 0; row < size; row++) {
+            for (int col = 0; col < size; col++) { // print horizontal lines
+                System.out.print(".");
+                if (game.getHorizontalLine(row, col) != null) {
+                    System.out.print("──");
+                } else {
+                    System.out.print("   "); // print spaces if it's empty
+                }
+                if (col == size - 1) {
+                    System.out.print("."); // print last dot
+                }
+            }
+            System.out.println();
 }
 
