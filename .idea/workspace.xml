@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Update Map" />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one," />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -398,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607605088564</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one,">
+      <created>1607613059453</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1607613059453</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +436,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Be careful this is a UPDATE for my clone method&#10;we initialize a red and also blue cart for the user &#10;we initialize this as:&#10;&#10;     cloned.redScore = redScore;&#10;     cloned.blueScore = blueScore;&#10;        &#10; so that I'm going to update this method later." />
     <MESSAGE value="Be careful this is a UPDATE for my clone method&#10;&#10;then we return this cloned easily" />
     <MESSAGE value="Now we create a method that get 2 parameter(An ArrayList &amp; An integer value);look it is private access modifier that we can use it from other class, package,... JUST WE CAN USE THIS METHOD FROM HERE(I MEAN HERE IS THE CLASSBWE WE ARE IN),we use this method to initialize a value of an arraylist." />
     <MESSAGE value="Add getSize getRedScore getBlueScore getScore" />
@@ -454,7 +460,8 @@
     <MESSAGE value="Update Main" />
     <MESSAGE value="Create loops" />
     <MESSAGE value="Update Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Map" />
+    <MESSAGE value="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one," />
+    <option name="LAST_COMMIT_MESSAGE" value="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one," />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
