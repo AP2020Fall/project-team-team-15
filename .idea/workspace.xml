@@ -25,7 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one,">
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="In while loop every thing is clear,so I want to explain it:&#10;the while loop will continue until the game ended;&#10;first of all we show the names of player (I will create the  the class later),then we show you the h|v column with the signichure you should enter (we defined it in other class);&#10;now we get the command,in if command we will show you what happened if the user put h ,exit or also h;&#10;in every single step we throw an exception too,">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/untitled/src/console/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/console/controller/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -414,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607613102514</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="In while loop every thing is clear,so I want to explain it:&#10;the while loop will continue until the game ended;&#10;first of all we show the names of player (I will create the  the class later),then we show you the h|v column with the signichure you should enter (we defined it in other class);&#10;now we get the command,in if command we will show you what happened if the user put h ,exit or also h;&#10;in every single step we throw an exception too,">
+      <created>1607613732097</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1607613732097</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +453,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Be careful this is a UPDATE for my clone method&#10;&#10;then we return this cloned easily" />
     <MESSAGE value="Now we create a method that get 2 parameter(An ArrayList &amp; An integer value);look it is private access modifier that we can use it from other class, package,... JUST WE CAN USE THIS METHOD FROM HERE(I MEAN HERE IS THE CLASSBWE WE ARE IN),we use this method to initialize a value of an arraylist." />
     <MESSAGE value="Add getSize getRedScore getBlueScore getScore" />
     <MESSAGE value="Add toggleColor getAvailableMoves" />
@@ -470,7 +477,8 @@
     <MESSAGE value="Create loops" />
     <MESSAGE value="Update Map" />
     <MESSAGE value="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one," />
-    <option name="LAST_COMMIT_MESSAGE" value="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one," />
+    <MESSAGE value="In while loop every thing is clear,so I want to explain it:&#10;the while loop will continue until the game ended;&#10;first of all we show the names of player (I will create the  the class later),then we show you the h|v column with the signichure you should enter (we defined it in other class);&#10;now we get the command,in if command we will show you what happened if the user put h ,exit or also h;&#10;in every single step we throw an exception too," />
+    <option name="LAST_COMMIT_MESSAGE" value="In while loop every thing is clear,so I want to explain it:&#10;the while loop will continue until the game ended;&#10;first of all we show the names of player (I will create the  the class later),then we show you the h|v column with the signichure you should enter (we defined it in other class);&#10;now we get the command,in if command we will show you what happened if the user put h ,exit or also h;&#10;in every single step we throw an exception too," />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -520,14 +528,14 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1607604740210">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607613765873">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607604740210" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1607432597330" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607186421353" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607613765873" />
     <state x="0" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1607512202131">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
@@ -537,9 +545,9 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="509" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.803@0.23.1440.803" timestamp="1607432159526" />
-    <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607613114571">
+    <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607613741199">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607613114571" />
+    <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607613741199" />
   </component>
 </project>

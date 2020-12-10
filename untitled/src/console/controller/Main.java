@@ -55,5 +55,11 @@ public class Main {
         }
     }
 
+    private static void showPlayers(Game<Square> game) {
+        int numOfPlayers = game.numOfPlayers();
+        for (int i = 0; i < numOfPlayers; i++)
+            System.out.println(" -> " + game.getPlayer(i) + " : " + game.numOfBoxes(game.getPlayer(i)));
+    }
+
 }
 
