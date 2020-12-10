@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="this for showing player that we  have talk before,first we get number of player in line 59,after that you">
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Now I wanna to explain line 80;With this for loop I want to show you all the vertical line.As you see if game.getVerticalLine() is opposite of null we print |;if owner isn't null we will show you the name of owner,like this this for loop continue to the end">
       <change beforePath="$PROJECT_DIR$/untitled/src/console/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/console/controller/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -428,7 +428,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607620099773</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="in this function we will show you that ALL THE BOARDS;First we get board sizes,then in a for loop I have explained all of my work with comment.">
+      <created>1607620433245</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1607620433245</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Now I wanna to explain line 80;With this for loop I want to show you all the vertical line.As you see if game.getVerticalLine() is opposite of null we print |;if owner isn't null we will show you the name of owner,like this this for loop continue to the end">
+      <created>1607620696447</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1607620696447</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,8 +473,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add getSize getRedScore getBlueScore getScore" />
-    <MESSAGE value="Add toggleColor getAvailableMoves" />
     <MESSAGE value="Add setHEdge" />
     <MESSAGE value="Add setVEdge" />
     <MESSAGE value="Change name" />
@@ -484,7 +496,9 @@
     <MESSAGE value="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one," />
     <MESSAGE value="In while loop every thing is clear,so I want to explain it:&#10;the while loop will continue until the game ended;&#10;first of all we show the names of player (I will create the  the class later),then we show you the h|v column with the signichure you should enter (we defined it in other class);&#10;now we get the command,in if command we will show you what happened if the user put h ,exit or also h;&#10;in every single step we throw an exception too," />
     <MESSAGE value="this for showing player that we  have talk before,first we get number of player in line 59,after that you" />
-    <option name="LAST_COMMIT_MESSAGE" value="this for showing player that we  have talk before,first we get number of player in line 59,after that you" />
+    <MESSAGE value="in this function we will show you that ALL THE BOARDS;First we get board sizes,then in a for loop I have explained all of my work with comment." />
+    <MESSAGE value="Now I wanna to explain line 80;With this for loop I want to show you all the vertical line.As you see if game.getVerticalLine() is opposite of null we print |;if owner isn't null we will show you the name of owner,like this this for loop continue to the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now I wanna to explain line 80;With this for loop I want to show you all the vertical line.As you see if game.getVerticalLine() is opposite of null we print |;if owner isn't null we will show you the name of owner,like this this for loop continue to the end" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">

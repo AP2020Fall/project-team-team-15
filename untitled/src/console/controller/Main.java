@@ -93,5 +93,23 @@ public class Main {
                     }
                 }
             }
+
+            System.out.println();
+            if (row == size - 1) { // print last row
+                for (int col = 0; col < size; col++) {
+                    System.out.print(".");
+                    if (game.getHorizontalLine(row + 1, col) != null) {
+                        System.out.print("──");
+                    } else {
+                        System.out.print("   ");
+                    }
+                    if (col == size - 1) {
+                        System.out.print(".");
+                    }
+                }
+                System.out.println();
+            }
+        }
+    }
 }
 
