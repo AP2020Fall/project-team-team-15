@@ -25,8 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Now I wanna to explain line 80;With this for loop I want to show you all the vertical line.As you see if game.getVerticalLine() is opposite of null we print |;if owner isn't null we will show you the name of owner,like this this for loop continue to the end">
-      <change beforePath="$PROJECT_DIR$/untitled/src/console/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/console/controller/Main.java" afterDir="false" />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Add playerJoin, playerLeave methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/console/core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/console/core/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,24 +68,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reversiiiii" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Reversi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dots_And_Boxes" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -97,7 +84,6 @@
       <option name="presentableId" value="Default" />
       <updated>1607176521127</updated>
       <workItem from="1607524621231" duration="3158000" />
-      <workItem from="1607604444290" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1607176930041</created>
@@ -365,84 +351,7 @@
       <option name="project" value="LOCAL" />
       <updated>1607527317310</updated>
     </task>
-    <task id="LOCAL-00039" summary="&quot; &quot;">
-      <created>1607604455172</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1607604455172</updated>
-    </task>
-    <task id="LOCAL-00040" summary="&quot; &quot;">
-      <created>1607604499023</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1607604499023</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Update Main">
-      <created>1607604723732</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1607604723732</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Create loops">
-      <created>1607604925186</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1607604925186</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Update Map">
-      <created>1607605088564</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1607605088564</updated>
-    </task>
-    <task id="LOCAL-00044" summary="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one,">
-      <created>1607613059453</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1607613059453</updated>
-    </task>
-    <task id="LOCAL-00045" summary="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one,">
-      <created>1607613102514</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1607613102514</updated>
-    </task>
-    <task id="LOCAL-00046" summary="In while loop every thing is clear,so I want to explain it:&#10;the while loop will continue until the game ended;&#10;first of all we show the names of player (I will create the  the class later),then we show you the h|v column with the signichure you should enter (we defined it in other class);&#10;now we get the command,in if command we will show you what happened if the user put h ,exit or also h;&#10;in every single step we throw an exception too,">
-      <created>1607613732097</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1607613732097</updated>
-    </task>
-    <task id="LOCAL-00047" summary="this for showing player that we  have talk before,first we get number of player in line 59,after that you">
-      <created>1607620099773</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1607620099773</updated>
-    </task>
-    <task id="LOCAL-00048" summary="in this function we will show you that ALL THE BOARDS;First we get board sizes,then in a for loop I have explained all of my work with comment.">
-      <created>1607620433245</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1607620433245</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Now I wanna to explain line 80;With this for loop I want to show you all the vertical line.As you see if game.getVerticalLine() is opposite of null we print |;if owner isn't null we will show you the name of owner,like this this for loop continue to the end">
-      <created>1607620696447</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1607620696447</updated>
-    </task>
-    <option name="localTasksCounter" value="50" />
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,6 +382,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="NOW the line between 18 to 27 is for the constructor,IN this method e will initialize the parameter but not all them,At first we cant do this we just know the parameter n.&#10;For the ArrayList &amp; all the other parameter except n we just define them in constructor BUT NOT initialize CAUSE we don,t now them at first." />
+    <MESSAGE value="This is the method clone.In this method at first we just define how many method we want from the parameter n that we get from constructor later." />
+    <MESSAGE value="After all&#10;be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of vEdge we define later in constructor using cloned (the coject of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
+    <MESSAGE value="Be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of Box we define later in constructor using cloned (the object of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
+    <MESSAGE value="Be careful this is a UPDATE for my clone method&#10;we initialize a red and also blue cart for the user &#10;we initialize this as:&#10;&#10;     cloned.redScore = redScore;&#10;     cloned.blueScore = blueScore;&#10;        &#10; so that I'm going to update this method later." />
+    <MESSAGE value="Be careful this is a UPDATE for my clone method&#10;&#10;then we return this cloned easily" />
+    <MESSAGE value="Now we create a method that get 2 parameter(An ArrayList &amp; An integer value);look it is private access modifier that we can use it from other class, package,... JUST WE CAN USE THIS METHOD FROM HERE(I MEAN HERE IS THE CLASSBWE WE ARE IN),we use this method to initialize a value of an arraylist." />
+    <MESSAGE value="Add getSize getRedScore getBlueScore getScore" />
+    <MESSAGE value="Add toggleColor getAvailableMoves" />
     <MESSAGE value="Add setHEdge" />
     <MESSAGE value="Add setVEdge" />
     <MESSAGE value="Change name" />
@@ -489,32 +407,15 @@
     <MESSAGE value="Create Board" />
     <MESSAGE value="Create Game" />
     <MESSAGE value="Add playerJoin, playerLeave methods" />
-    <MESSAGE value="&quot; &quot;" />
-    <MESSAGE value="Update Main" />
-    <MESSAGE value="Create loops" />
-    <MESSAGE value="Update Map" />
-    <MESSAGE value="hello dear friend&#10;first of all,we just import all the java platform we need later.&#10;then we create class main, we create scanner to get sth from user,and after that we create game class,in for loop we define number of player , I mean that the game is multiple,then we get the name of user , if the name was null we create one," />
-    <MESSAGE value="In while loop every thing is clear,so I want to explain it:&#10;the while loop will continue until the game ended;&#10;first of all we show the names of player (I will create the  the class later),then we show you the h|v column with the signichure you should enter (we defined it in other class);&#10;now we get the command,in if command we will show you what happened if the user put h ,exit or also h;&#10;in every single step we throw an exception too," />
-    <MESSAGE value="this for showing player that we  have talk before,first we get number of player in line 59,after that you" />
-    <MESSAGE value="in this function we will show you that ALL THE BOARDS;First we get board sizes,then in a for loop I have explained all of my work with comment." />
-    <MESSAGE value="Now I wanna to explain line 80;With this for loop I want to show you all the vertical line.As you see if game.getVerticalLine() is opposite of null we print |;if owner isn't null we will show you the name of owner,like this this for loop continue to the end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now I wanna to explain line 80;With this for loop I want to show you all the vertical line.As you see if game.getVerticalLine() is opposite of null we print |;if owner isn't null we will show you the name of owner,like this this for loop continue to the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add playerJoin, playerLeave methods" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="654" y="275" key="#Notifications" timestamp="1607604487399">
+    <state x="341" y="0" key="#Project_Structure" timestamp="1607524842369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1607604487399" />
-    <state x="341" y="0" key="#Project_Structure" timestamp="1607605320534">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="341" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1607605320534" />
+    <state x="341" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1607524842369" />
     <state x="320" y="90" key="#Project_Structure/0.23.1440.803@0.23.1440.803" timestamp="1607431281307" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607605277270">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607605277270" />
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1607526476304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -532,30 +433,30 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="100" y="123" width="1592" height="832" key="DiffContextDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607177727426" />
-    <state x="451" y="207" key="FileChooserDialogImpl" timestamp="1607604630950">
+    <state x="451" y="207" key="FileChooserDialogImpl" timestamp="1607525079602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="451" y="207" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607604630950" />
-    <state x="180" y="116" key="MergeDialog" timestamp="1607613085313">
+    <state x="451" y="207" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607525079602" />
+    <state x="180" y="116" key="MergeDialog" timestamp="1607178270032">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="180" y="116" key="MergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607613085313" />
-    <state x="784" y="413" key="MultipleFileMergeDialog" timestamp="1607613090664">
+    <state x="180" y="116" key="MergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178270032" />
+    <state x="784" y="413" key="MultipleFileMergeDialog" timestamp="1607178270079">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="784" y="413" key="MultipleFileMergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607613090664" />
+    <state x="784" y="413" key="MultipleFileMergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178270079" />
     <state x="630" y="248" key="RollbackChangesDialog" timestamp="1607181274018">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607620461174">
-      <screen x="0" y="23" width="1792" height="1032" />
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1607526939460">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607604740210" />
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607526939460" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1607432597330" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607620461174" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607186421353" />
     <state x="0" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1607512202131">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
@@ -565,9 +466,9 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="509" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.803@0.23.1440.803" timestamp="1607432159526" />
-    <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607613741199">
+    <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607178375566">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607613741199" />
+    <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178375566" />
   </component>
 </project>
