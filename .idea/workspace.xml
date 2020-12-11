@@ -25,9 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Add playerJoin, playerLeave methods">
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="hello dear friend,we create changeColor with initialize value,in this method we want to change the method's color&#10;then we initialize the counter value for the next loop I define later">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/console/core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/console/core/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reversi/src/checkMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reversi/src/checkMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607527317310</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="hello dear friend,we create changeColor with initialize value,in this method we want to change the method's color&#10;then we initialize the counter value for the next loop I define later">
+      <created>1607698228883</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607698228883</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +389,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NOW the line between 18 to 27 is for the constructor,IN this method e will initialize the parameter but not all them,At first we cant do this we just know the parameter n.&#10;For the ArrayList &amp; all the other parameter except n we just define them in constructor BUT NOT initialize CAUSE we don,t now them at first." />
     <MESSAGE value="This is the method clone.In this method at first we just define how many method we want from the parameter n that we get from constructor later." />
     <MESSAGE value="After all&#10;be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of vEdge we define later in constructor using cloned (the coject of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
     <MESSAGE value="Be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of Box we define later in constructor using cloned (the object of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
@@ -407,7 +413,8 @@
     <MESSAGE value="Create Board" />
     <MESSAGE value="Create Game" />
     <MESSAGE value="Add playerJoin, playerLeave methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add playerJoin, playerLeave methods" />
+    <MESSAGE value="hello dear friend,we create changeColor with initialize value,in this method we want to change the method's color&#10;then we initialize the counter value for the next loop I define later" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello dear friend,we create changeColor with initialize value,in this method we want to change the method's color&#10;then we initialize the counter value for the next loop I define later" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -449,14 +456,14 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1607526939460">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607698265744">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607526939460" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1607432597330" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607186421353" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607698265744" />
     <state x="0" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1607512202131">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
