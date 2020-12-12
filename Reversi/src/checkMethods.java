@@ -117,3 +117,46 @@ public class checkMethods {
                         }
                     }
                 }
+
+
+                //player 2
+                if (Main.player == 2) {
+                    if (Main.nuts[i] == 2) {
+                        int location = i;
+                        boolean flag = false;
+                        while (true) {
+                            if ((cnt == -9 || cnt == 7 || cnt == -1) && location % 8 == 0) {      //out of map
+                                break;
+                            }
+                            if ((cnt == 9 || cnt == -7 || cnt == 1) && location % 8 == 1) {      //out of map
+                                break;
+                            }
+                            if (location - cnt <= 0 || location - cnt > 64) {
+                                break;
+                            }
+                            if ((location - cnt) % 8 == 0) {
+                                if (flag && Main.nuts[location - cnt] == 0) {                 //out of map
+                                    Main.nuts[location - cnt] = 3;
+                                    break;
+                                }
+                            }
+                            if (Main.nuts[location - cnt] == 0) {
+                                if (flag) {
+                                    Main.nuts[location - cnt] = 3;
+                                    break;
+                                } else {
+                                    break;
+                                }
+                            } else if (Main.nuts[location - cnt] == 1) {
+                                flag = true;
+                            } else {
+                                break;
+                            }
+                            location -= cnt;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
