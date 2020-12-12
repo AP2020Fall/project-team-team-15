@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="in this section i just do all the thing you mention in the question&#10;for example  if nts == 1 we rite if statement just seem what ever the question want." />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="for player 2/we define all location with while true loop &amp; the if statement.if each if statement will true the location decrease 1 from the counter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reversi/src/checkMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reversi/src/checkMethods.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -369,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607700962760</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="for player 2/we define all location with while true loop &amp; the if statement.if each if statement will true the location decrease 1 from the counter">
+      <created>1607794113573</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1607794113573</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +410,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of Box we define later in constructor using cloned (the object of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
     <MESSAGE value="Be careful this is a UPDATE for my clone method&#10;we initialize a red and also blue cart for the user &#10;we initialize this as:&#10;&#10;     cloned.redScore = redScore;&#10;     cloned.blueScore = blueScore;&#10;        &#10; so that I'm going to update this method later." />
     <MESSAGE value="Be careful this is a UPDATE for my clone method&#10;&#10;then we return this cloned easily" />
     <MESSAGE value="Now we create a method that get 2 parameter(An ArrayList &amp; An integer value);look it is private access modifier that we can use it from other class, package,... JUST WE CAN USE THIS METHOD FROM HERE(I MEAN HERE IS THE CLASSBWE WE ARE IN),we use this method to initialize a value of an arraylist." />
@@ -425,7 +434,8 @@
     <MESSAGE value="hello dear friend,we create changeColor with initialize value,in this method we want to change the method's color&#10;then we initialize the counter value for the next loop I define later" />
     <MESSAGE value="In this for loop we initialize start ,end and the counter of this game ,the other thing is clear,then we go to the player" />
     <MESSAGE value="in this section i just do all the thing you mention in the question&#10;for example  if nts == 1 we rite if statement just seem what ever the question want." />
-    <option name="LAST_COMMIT_MESSAGE" value="in this section i just do all the thing you mention in the question&#10;for example  if nts == 1 we rite if statement just seem what ever the question want." />
+    <MESSAGE value="for player 2/we define all location with while true loop &amp; the if statement.if each if statement will true the location decrease 1 from the counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="for player 2/we define all location with while true loop &amp; the if statement.if each if statement will true the location decrease 1 from the counter" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -467,14 +477,14 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607700992292">
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607794144489">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607526939460" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1607432597330" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607700992292" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607794144489" />
     <state x="0" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1607512202131">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
