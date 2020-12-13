@@ -24,6 +24,11 @@ public class Checked {
                 Main.player = 1;
             }
         }
+        //check for finish game
+        CheckMethods.checkMove(-1, 2, -8, 1);
+        CheckMethods.checkMove(-1, 2, 0, 2);
+        CheckMethods.checkMove(-1, 2, 8, 1);
+
         for (int i = 1; i <= 64; i++) {
             if (Main.nuts[i] == 3) {
                 tmp++;
