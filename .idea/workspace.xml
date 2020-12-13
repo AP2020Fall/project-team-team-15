@@ -26,10 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Create new class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reversi/src/Checked.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reversi/src/Checked.java" afterDir="false" />
-    </list>
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Update Checked" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607176521127</updated>
       <workItem from="1607524621231" duration="3158000" />
-      <workItem from="1607849352288" duration="1257000" />
+      <workItem from="1607849352288" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1607176930041</created>
@@ -409,7 +406,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607849480532</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Add Methods">
+      <created>1607850656898</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1607850656898</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Add Methods">
+      <created>1607850715908</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1607850715908</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Update Checked">
+      <created>1607850932213</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1607850932213</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,8 +458,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add getSize getRedScore getBlueScore getScore" />
-    <MESSAGE value="Add toggleColor getAvailableMoves" />
     <MESSAGE value="Add setHEdge" />
     <MESSAGE value="Add setVEdge" />
     <MESSAGE value="Change name" />
@@ -465,7 +481,9 @@
     <MESSAGE value="this is checking players move ,we check this with this method,the counter we initialize first is 0 value, we implement for loop with first start, finished and counter value.we define if statement for the players, then for player one we define a while true with if statement just like the true loop above&#10;after all of this we decrease 1 value from the location" />
     <MESSAGE value="now we implement the same thing for player 2, when the statement in if in line 123, if main.player == 2 then if main nut i == 2 and location =i and boolean flag is false,then we define other if statement for the location after all as same as above,we decrease 1 from loction ;This is all we want in the question for this game." />
     <MESSAGE value="Create new class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new class" />
+    <MESSAGE value="Add Methods" />
+    <MESSAGE value="Update Checked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Checked" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -507,10 +525,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1607849518735">
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1607851059530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607849518735" />
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607851059530" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1607432597330" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
