@@ -63,6 +63,24 @@ public class Checked {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            if (black > red) {
+                System.out.println("Player 2 won!!!");
+                System.out.println("Player 1: " + red + "   Player 2: " + black);
+                System.out.println("Last disk: (" + (Main.x + 1) + ", " + Main.y + ")");
+                System.exit(0);
+            }
+            if (black < red) {
+                System.out.println("Player 1 won!!!");
+                System.out.println("Player 1: " + red + "   Player 2: " + black);
+                System.out.println("Last disk: (" + (Main.x + 1) + ", " + Main.y + ")");
+                System.exit(0);
+            }
+            if (black == red) {
+                System.out.println("Draw!!!");
+                System.out.println("Player 1: " + red + "   Player 2: " + black);
+                System.out.println("Last disk: (" + (Main.x + 1) + ", " + Main.y + ")");
+                System.exit(0);
+            }
         }
     }
 }
