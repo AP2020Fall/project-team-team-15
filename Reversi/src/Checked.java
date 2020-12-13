@@ -1,3 +1,8 @@
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Checked {
     public void possibleMove(int btnIndex) {
         //changing color
@@ -44,6 +49,19 @@ public class Checked {
                 if (Main.nuts[i] == 2) {
                     black++;
                 }
+            }
+            try {
+                File f1 = new File("result.txt");
+                if (!f1.exists()) {
+                    f1.createNewFile();
+                }
+
+                FileWriter fileWritter = new FileWriter(f1.getName(), true);
+                BufferedWriter bw = new BufferedWriter(fileWritter);
+                bw.write("Player 1: " + red + "   Player 2: " + black + "\n");
+                bw.close();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
     }
