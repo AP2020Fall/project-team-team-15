@@ -37,6 +37,14 @@ public class Checked {
         if (tmp == 0) {
             int black = 0;
             int red = 0;
+            for (int i = 0; i < 65; i++) {
+                if (Main.nuts[i] == 1) {
+                    red++;
+                }
+                if (Main.nuts[i] == 2) {
+                    black++;
+                }
+            }
         }
     }
 }
