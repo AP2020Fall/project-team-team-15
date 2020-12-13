@@ -19,13 +19,14 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Sadra2" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="now we implement the same thing for player 2, when the statement in if in line 123, if main.player == 2 then if main nut i == 2 and location =i and boolean flag is false,then we define other if statement for the location after all as same as above,we decrease 1 from loction ;This is all we want in the question for this game." />
+    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="Add try and catch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,41 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607176521127</updated>
       <workItem from="1607524621231" duration="3158000" />
-    </task>
-    <task id="LOCAL-00001" summary="Update README.md">
-      <created>1607176930041</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607176930041</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Update README.md">
-      <created>1607176978484</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607176978484</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Update README.md&#10;initialize the variable">
-      <created>1607178287767</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1607178287767</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Update README.md&#10;initialize the constructor">
-      <created>1607178525951</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1607178525951</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Update READMEcheck that is horizontal or not">
-      <created>1607178926463</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1607178926463</updated>
+      <workItem from="1607849352288" duration="3243000" />
     </task>
     <task id="LOCAL-00006" summary="initialize the default constructor&#10;if we don't initialize the variable,&#10;the default constructor will be initialize the default value.">
       <created>1607179290620</created>
@@ -397,7 +364,70 @@
       <option name="project" value="LOCAL" />
       <updated>1607796824700</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Create new class">
+      <created>1607849480532</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1607849480532</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add Methods">
+      <created>1607850656898</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1607850656898</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Add Methods">
+      <created>1607850715908</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1607850715908</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Update Checked">
+      <created>1607850932213</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1607850932213</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Update Checked">
+      <created>1607851179495</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1607851179496</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Add Methods">
+      <created>1607851496974</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1607851496974</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Update Checked">
+      <created>1607851606288</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1607851606288</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Update Checked">
+      <created>1607851816583</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1607851816583</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Add try and catch">
+      <created>1607853182316</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1607853182316</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +444,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/Sadra2" />
                       </list>
                     </value>
                   </entry>
@@ -428,10 +458,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Now we create a method that get 2 parameter(An ArrayList &amp; An integer value);look it is private access modifier that we can use it from other class, package,... JUST WE CAN USE THIS METHOD FROM HERE(I MEAN HERE IS THE CLASSBWE WE ARE IN),we use this method to initialize a value of an arraylist." />
-    <MESSAGE value="Add getSize getRedScore getBlueScore getScore" />
-    <MESSAGE value="Add toggleColor getAvailableMoves" />
-    <MESSAGE value="Add setHEdge" />
     <MESSAGE value="Add setVEdge" />
     <MESSAGE value="Change name" />
     <MESSAGE value="Add packages" />
@@ -453,7 +479,11 @@
     <MESSAGE value="for player 2/we define all location with while true loop &amp; the if statement.if each if statement will true the location decrease 1 from the counter" />
     <MESSAGE value="this is checking players move ,we check this with this method,the counter we initialize first is 0 value, we implement for loop with first start, finished and counter value.we define if statement for the players, then for player one we define a while true with if statement just like the true loop above&#10;after all of this we decrease 1 value from the location" />
     <MESSAGE value="now we implement the same thing for player 2, when the statement in if in line 123, if main.player == 2 then if main nut i == 2 and location =i and boolean flag is false,then we define other if statement for the location after all as same as above,we decrease 1 from loction ;This is all we want in the question for this game." />
-    <option name="LAST_COMMIT_MESSAGE" value="now we implement the same thing for player 2, when the statement in if in line 123, if main.player == 2 then if main nut i == 2 and location =i and boolean flag is false,then we define other if statement for the location after all as same as above,we decrease 1 from loction ;This is all we want in the question for this game." />
+    <MESSAGE value="Create new class" />
+    <MESSAGE value="Add Methods" />
+    <MESSAGE value="Update Checked" />
+    <MESSAGE value="Add try and catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add try and catch" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -495,10 +525,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607796841440">
-      <screen x="0" y="23" width="1792" height="1032" />
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1607853194850">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607526939460" />
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607853194850" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1607432597330" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
