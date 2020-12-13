@@ -34,5 +34,9 @@ public class Checked {
                 tmp++;
             }
         }
+        if (tmp == 0) {
+            int black = 0;
+            int red = 0;
+        }
     }
 }
