@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608120991639</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="check.possibleMove">
+      <created>1608122512862</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608122512862</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +312,8 @@
     <MESSAGE value="Add setHEdge" />
     <MESSAGE value="Add setVEdge" />
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <MESSAGE value="check.possibleMove" />
+    <option name="LAST_COMMIT_MESSAGE" value="check.possibleMove" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -317,11 +325,11 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="570" y="320" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.803@0.23.1440.803" timestamp="1607452848277" />
-    <state x="0" y="27" key="CommitChangelistDialog2" timestamp="1608120991118">
+    <state x="0" y="27" key="CommitChangelistDialog2" timestamp="1608122512364">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="0" y="27" key="CommitChangelistDialog2/0.23.1440.803@0.23.1440.803" timestamp="1607454039938" />
-    <state x="0" y="27" key="CommitChangelistDialog2/0.23.1440.805@0.23.1440.805" timestamp="1608120991118" />
+    <state x="0" y="27" key="CommitChangelistDialog2/0.23.1440.805@0.23.1440.805" timestamp="1608122512364" />
     <state x="0" y="27" key="CommitChangelistDialog2/0.23.1440.807@0.23.1440.807" timestamp="1607505211660" />
     <state x="100" y="123" width="1592" height="832" key="DiffContextDialog" timestamp="1607177727426">
       <screen x="0" y="23" width="1792" height="1032" />
@@ -339,18 +347,18 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="399" y="223" key="Vcs.Push.Dialog.v2" timestamp="1608121000134">
+    <state x="399" y="223" key="Vcs.Push.Dialog.v2" timestamp="1608122515670">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
-    <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1608121000134" />
+    <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1608122515670" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
     <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607186421353" />
-    <state x="0" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1608122407765">
+    <state x="0" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1608123629433">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="0" y="248" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1607507164691" />
-    <state x="0" y="248" key="com.intellij.ide.util.TipDialog/0.23.1440.805@0.23.1440.805" timestamp="1608122407765" />
+    <state x="0" y="248" key="com.intellij.ide.util.TipDialog/0.23.1440.805@0.23.1440.805" timestamp="1608123629433" />
     <state x="0" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1607512202131" />
     <state x="509" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607432159526">
       <screen x="0" y="23" width="1440" height="803" />

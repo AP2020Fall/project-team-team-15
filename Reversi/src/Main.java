@@ -46,6 +46,17 @@ public class Main  {
                     black++;
                 }
             }
+            map.printMap();
+            System.out.println("Player 1: " + red + "    Player 2: " + black);
+            System.out.println("Turn: Player " + player);
+
+            System.out.print("X: ");
+            x = scanner.nextInt() - 1;
+            if (x > 8 || x < 0) {
+                System.out.println("Coordinates must be inside the table");
+                continue;
+            }
+
 
 
         }
