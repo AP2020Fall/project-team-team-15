@@ -56,6 +56,26 @@ public class Main  {
                 System.out.println("Coordinates must be inside the table");
                 continue;
             }
+            if (nuts[(y - 1) * 8 + x + 1] != 3) {
+                System.out.println("You cannot place the disk on this Coordinates");
+                continue;
+            }
+            if (player == 1) {
+                nuts[(y - 1) * 8 + x + 1] = 1;
+                player = 2;
+            } else {
+                nuts[(y - 1) * 8 + x + 1] = 2;
+                player = 1;
+            }
+            for (int j = 0; j < 65; j++) {
+                if (nuts[j] == 3) {
+                    nuts[j] = 0;
+                }
+            }
+            check.possibleMove((y - 1) * 8 + x + 1);
+        }
+    }
+
 
 
 
