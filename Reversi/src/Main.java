@@ -26,4 +26,26 @@ public class Main  {
             }
 
         }
-}
+        Random random = new Random();
+        int rand = random.nextInt();
+        if (rand < 0) {
+            rand *= -1;
+        }
+        rand = rand % 2;
+        player = rand + 1;
+
+        check.possibleMove((y - 1) * 8 + x + 1);
+
+        while (true) {
+            int red = 0;
+            int black = 0;
+            for (int i = 1; i < 65; i++) {
+                if (nuts[i] == 1) {
+                    red++;
+                } else if (nuts[i] == 2) {
+                    black++;
+                }
+            }
+
+
+        }
