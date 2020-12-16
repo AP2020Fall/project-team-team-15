@@ -25,8 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f49d9d-2539-487b-aabd-cff8c983b4ab" name="Default Changelist" comment="">
+    <list default="true" id="c4f50f2b-3b78-47f9-a434-a284bac4bdc0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reversi/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reversi/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,17 +331,18 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="399" y="224" key="Vcs.Push.Dialog.v2" timestamp="1607505222580">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state x="399" y="223" key="Vcs.Push.Dialog.v2" timestamp="1608120956490">
+      <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
-    <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1607432597330" />
+    <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1608120956490" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
     <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607186421353" />
-    <state x="0" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1607512202131">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state x="0" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1608120933278">
+      <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="0" y="248" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1607507164691" />
+    <state x="0" y="248" key="com.intellij.ide.util.TipDialog/0.23.1440.805@0.23.1440.805" timestamp="1608120933278" />
     <state x="0" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1607512202131" />
     <state x="509" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607432159526">
       <screen x="0" y="23" width="1440" height="803" />
