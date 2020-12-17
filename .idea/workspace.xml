@@ -25,9 +25,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f50f2b-3b78-47f9-a434-a284bac4bdc0" name="Default Changelist" comment="">
+    <list default="true" id="c4f50f2b-3b78-47f9-a434-a284bac4bdc0" name="Default Changelist" comment="Update Database">
+      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/controller/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/controller/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/model/games/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/model/users/Log_Of_Games.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/model/users/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reversi/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reversi/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +69,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../plato" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -78,6 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607176521127</updated>
+      <workItem from="1608184653041" duration="4208000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1607176930041</created>
@@ -268,8 +279,81 @@
       <option name="project" value="LOCAL" />
       <updated>1608123676147</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Create new Plato">
+      <created>1608184721348</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608184721348</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Create Admin">
+      <created>1608185360423</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608185360423</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Create Main">
+      <created>1608185464029</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1608185464029</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Create packages">
+      <created>1608185531508</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1608185531508</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add getters &amp; setters">
+      <created>1608185700412</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608185700412</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add constructor">
+      <created>1608185818613</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1608185818613</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Create packages">
+      <created>1608192257126</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1608192257126</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Test">
+      <created>1608192349834</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1608192349834</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Test">
+      <created>1608192724392</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608192724392</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Update Database">
+      <created>1608192775234</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1608192775234</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -288,22 +372,14 @@
                   </entry>
                 </map>
               </option>
-              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update README.md" />
-    <MESSAGE value="Update README.md&#10;initialize the variable" />
-    <MESSAGE value="Update README.md&#10;initialize the constructor" />
-    <MESSAGE value="Update READMEcheck that is horizontal or not" />
-    <MESSAGE value="initialize the default constructor&#10;if we don't initialize the variable,&#10;the default constructor will be initialize the default value." />
-    <MESSAGE value="I have INITIALIZE the Getter method&#10;that will help us to get the parameter x from the constructor." />
-    <MESSAGE value="ALSO,&#10;I have INITIALIZE the Getter method&#10;that will help us to get the parameter Y from the constructor." />
-    <MESSAGE value="THIS is the override method for constructor ,&#10;override will help us to get the value from constructor,&#10;if we don't use override,we will see that while getting the parameter &#10;from the constructor,the value that will return is not what we want,&#10;it's the memory place :(" />
     <MESSAGE value="Hi dear friend:&#10;At first I initialize(package dot_and_box;) that shown us the package name of this project;If we dont mention this line the project wouldn't be RUN.Then we import two different package;First we used All the awt in java.Second we import JAVA'S ArrayList.After all these changes we create the class Board.We initialize all final static that we couldn't change them.we use them for the color we want sooner." />
     <MESSAGE value="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the will helped you that I should'nt explain more." />
     <MESSAGE value="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the name will helped you that I should'nt explain more. (update commit)" />
@@ -321,7 +397,15 @@
     <MESSAGE value="Start" />
     <MESSAGE value="check.possibleMove" />
     <MESSAGE value="Check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check" />
+    <MESSAGE value="Create new Plato" />
+    <MESSAGE value="Create Admin" />
+    <MESSAGE value="Create Main" />
+    <MESSAGE value="Add getters &amp; setters" />
+    <MESSAGE value="Add constructor" />
+    <MESSAGE value="Create packages" />
+    <MESSAGE value="Test" />
+    <MESSAGE value="Update Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Database" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -343,6 +427,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="100" y="123" width="1592" height="832" key="DiffContextDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607177727426" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608185067496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608185067496" />
     <state x="180" y="116" key="MergeDialog" timestamp="1607178270032">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
@@ -355,9 +443,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="399" y="223" key="Vcs.Push.Dialog.v2" timestamp="1608123681458">
-      <screen x="0" y="23" width="1440" height="805" />
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1608192792824">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608192792824" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1608123681458" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
@@ -376,5 +465,9 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178375566" />
+    <state x="209" y="33" key="new project wizard" timestamp="1608188098094">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1608188098094" />
   </component>
 </project>
