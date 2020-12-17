@@ -25,9 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f50f2b-3b78-47f9-a434-a284bac4bdc0" name="Default Changelist" comment="">
+    <list default="true" id="c4f50f2b-3b78-47f9-a434-a284bac4bdc0" name="Default Changelist" comment="Create new Plato">
+      <change afterPath="$PROJECT_DIR$/new Plato/new Plato.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new Plato/src/users/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reversi/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reversi/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new Plato/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +66,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../plato" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -78,6 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607176521127</updated>
+      <workItem from="1608184653041" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="Update README.md">
       <created>1607176930041</created>
@@ -268,8 +276,18 @@
       <option name="project" value="LOCAL" />
       <updated>1608123676147</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Create new Plato">
+      <created>1608184721348</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608184721348</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -288,15 +306,14 @@
                   </entry>
                 </map>
               </option>
-              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update README.md" />
     <MESSAGE value="Update README.md&#10;initialize the variable" />
     <MESSAGE value="Update README.md&#10;initialize the constructor" />
     <MESSAGE value="Update READMEcheck that is horizontal or not" />
@@ -321,7 +338,8 @@
     <MESSAGE value="Start" />
     <MESSAGE value="check.possibleMove" />
     <MESSAGE value="Check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check" />
+    <MESSAGE value="Create new Plato" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new Plato" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -343,6 +361,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="100" y="123" width="1592" height="832" key="DiffContextDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607177727426" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608185067496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608185067496" />
     <state x="180" y="116" key="MergeDialog" timestamp="1607178270032">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
@@ -355,9 +377,10 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="399" y="223" key="Vcs.Push.Dialog.v2" timestamp="1608123681458">
-      <screen x="0" y="23" width="1440" height="805" />
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1608184738327">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608184738327" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1608123681458" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
@@ -376,5 +399,9 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178375566" />
+    <state x="209" y="33" key="new project wizard" timestamp="1608184696272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1608184696272" />
   </component>
 </project>
