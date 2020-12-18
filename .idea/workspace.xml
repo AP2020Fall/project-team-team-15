@@ -26,7 +26,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f50f2b-3b78-47f9-a434-a284bac4bdc0" name="Default Changelist" comment="excuse me for commiting all this class at the same time.&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time,">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new Plato/src/plato/model/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/new Plato/src/plato/model/users/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -344,42 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608192775234</updated>
     </task>
-    <task id="LOCAL-00038" summary="hello dear friend &#10;we create adminService ,then in register we get admin, admin is the class I create later,we get user and pass from admin class I create that later then we implement login and logout and modify profile method.">
-      <created>1608300229751</created>
+    <task id="LOCAL-00038" summary="excuse me for commiting all this class at the same time.&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time,">
+      <created>1608302540197</created>
       <option name="number" value="00038" />
       <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1608300229751</updated>
+      <updated>1608302540197</updated>
     </task>
-    <task id="LOCAL-00039" summary="Hi dear friend&#10;first we create user class , then we define all the variable we need for user after that we create a constructor from line 12 to 26.">
-      <created>1608301064386</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1608301064386</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Hi dear friend&#10;first we create user class , then we define all the variable we need for user after that we create a constructor from line 12 to 26.">
-      <created>1608301175890</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1608301175890</updated>
-    </task>
-    <task id="LOCAL-00041" summary="excuse me for commiting all this class at the same time.&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time,">
-      <created>1608302375845</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1608302375845</updated>
-    </task>
-    <task id="LOCAL-00042" summary="excuse me for commiting all this class at the same time.&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time,">
-      <created>1608302404562</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1608302404562</updated>
-    </task>
-    <option name="localTasksCounter" value="43" />
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +381,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the name will helped you that I should'nt explain more. (update commit)" />
     <MESSAGE value="NOW the line between 18 to 27 is for the constructor,IN this method e will initialize the parameter but not all them,At first we cant do this we just know the parameter n.&#10;For the ArrayList &amp; all the other parameter except n we just define them in constructor BUT NOT initialize CAUSE we don,t now them at first." />
     <MESSAGE value="This is the method clone.In this method at first we just define how many method we want from the parameter n that we get from constructor later." />
     <MESSAGE value="After all&#10;be careful this is a UPDATE for my clone method&#10; we use 2for loop that helped us tho initialize the ArrayList of vEdge we define later in constructor using cloned (the coject of our board),&#10; I think every thing is very clear&#10; so that I'm going to update this method later." />
@@ -432,10 +404,9 @@
     <MESSAGE value="Create packages" />
     <MESSAGE value="Test" />
     <MESSAGE value="Update Database" />
-    <MESSAGE value="hello dear friend &#10;we create adminService ,then in register we get admin, admin is the class I create later,we get user and pass from admin class I create that later then we implement login and logout and modify profile method." />
-    <MESSAGE value="Hi dear friend&#10;first we create user class , then we define all the variable we need for user after that we create a constructor from line 12 to 26." />
     <MESSAGE value="excuse me for commiting all this class at the same time.&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time," />
-    <option name="LAST_COMMIT_MESSAGE" value="excuse me for commiting all this class at the same time.&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time," />
+    <MESSAGE value="excuse me for commiting all this class at the same time.&#10;my commit was deleted,(&#10;i explain all at same time &#10;first i define all variable we need in user class then we create constructor,&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time," />
+    <option name="LAST_COMMIT_MESSAGE" value="excuse me for commiting all this class at the same time.&#10;my commit was deleted,(&#10;i explain all at same time &#10;first i define all variable we need in user class then we create constructor,&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time," />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -461,26 +432,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608185067496" />
-    <state x="180" y="116" key="MergeDialog" timestamp="1608299964101">
+    <state x="180" y="116" key="MergeDialog" timestamp="1608302534974">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="180" y="116" key="MergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1608299964101" />
-    <state x="784" y="413" key="MultipleFileMergeDialog" timestamp="1608299964141">
+    <state x="180" y="116" key="MergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1608302534974" />
+    <state x="784" y="413" key="MultipleFileMergeDialog" timestamp="1608302535019">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="784" y="413" key="MultipleFileMergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1608299964141" />
+    <state x="784" y="413" key="MultipleFileMergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1608302535019" />
     <state x="630" y="248" key="RollbackChangesDialog" timestamp="1607181274018">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1608301192200">
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1608302555363">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608192792824" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1608123681458" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1608301192200" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1608302555363" />
     <state x="0" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1608124897930">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
@@ -491,10 +462,10 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="509" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.803@0.23.1440.803" timestamp="1607432159526" />
-    <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1608299948849">
+    <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607178375566">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1608299948849" />
+    <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178375566" />
     <state x="209" y="33" key="new project wizard" timestamp="1608188098094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

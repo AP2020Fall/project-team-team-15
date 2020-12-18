@@ -9,6 +9,7 @@ public class User {
     ArrayList<User> friends;
     List friend_request;
 
+
     public User(String name, String family, String username, String password, String email, String phone_number, int userId, int date_of_register, int money, int score, Log_Of_Games log, ArrayList<User> friends, List friend_request) {
         this.name = name;
         this.family = family;
