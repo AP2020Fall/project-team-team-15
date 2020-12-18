@@ -25,14 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f50f2b-3b78-47f9-a434-a284bac4bdc0" name="Default Changelist" comment="Update Database">
-      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/controller/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/controller/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/model/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/model/games/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/model/users/Log_Of_Games.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new Plato/src/plato/model/users/User.java" afterDir="false" />
+    <list default="true" id="c4f50f2b-3b78-47f9-a434-a284bac4bdc0" name="Default Changelist" comment="hello dear friend &#10;we create adminService ,then in register we get admin, admin is the class I create later,we get user and pass from admin class I create that later then we implement login and logout and modify profile method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new Plato/src/plato/model/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/new Plato/src/plato/model/users/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608192775234</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="hello dear friend &#10;we create adminService ,then in register we get admin, admin is the class I create later,we get user and pass from admin class I create that later then we implement login and logout and modify profile method.">
+      <created>1608300229751</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1608300229751</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +382,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hi dear friend:&#10;At first I initialize(package dot_and_box;) that shown us the package name of this project;If we dont mention this line the project wouldn't be RUN.Then we import two different package;First we used All the awt in java.Second we import JAVA'S ArrayList.After all these changes we create the class Board.We initialize all final static that we couldn't change them.we use them for the color we want sooner." />
     <MESSAGE value="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the will helped you that I should'nt explain more." />
     <MESSAGE value="First I have entered the arraylist to store height edge and then the vedge , after that we initialize the variable,I think the name will helped you that I should'nt explain more. (update commit)" />
     <MESSAGE value="NOW the line between 18 to 27 is for the constructor,IN this method e will initialize the parameter but not all them,At first we cant do this we just know the parameter n.&#10;For the ArrayList &amp; all the other parameter except n we just define them in constructor BUT NOT initialize CAUSE we don,t now them at first." />
@@ -405,7 +406,8 @@
     <MESSAGE value="Create packages" />
     <MESSAGE value="Test" />
     <MESSAGE value="Update Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Database" />
+    <MESSAGE value="hello dear friend &#10;we create adminService ,then in register we get admin, admin is the class I create later,we get user and pass from admin class I create that later then we implement login and logout and modify profile method." />
+    <option name="LAST_COMMIT_MESSAGE" value="hello dear friend &#10;we create adminService ,then in register we get admin, admin is the class I create later,we get user and pass from admin class I create that later then we implement login and logout and modify profile method." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -431,26 +433,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608185067496" />
-    <state x="180" y="116" key="MergeDialog" timestamp="1607178270032">
+    <state x="180" y="116" key="MergeDialog" timestamp="1608299964101">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="180" y="116" key="MergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178270032" />
-    <state x="784" y="413" key="MultipleFileMergeDialog" timestamp="1607178270079">
+    <state x="180" y="116" key="MergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1608299964101" />
+    <state x="784" y="413" key="MultipleFileMergeDialog" timestamp="1608299964141">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="784" y="413" key="MultipleFileMergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178270079" />
+    <state x="784" y="413" key="MultipleFileMergeDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1608299964141" />
     <state x="630" y="248" key="RollbackChangesDialog" timestamp="1607181274018">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="426" y="205" key="Vcs.Push.Dialog.v2" timestamp="1608192792824">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1608300255641">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608192792824" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1608123681458" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1607186421353" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1608300255641" />
     <state x="0" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1608124897930">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
@@ -461,10 +463,10 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="509" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.803@0.23.1440.803" timestamp="1607432159526" />
-    <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607178375566">
+    <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1608299948849">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178375566" />
+    <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1608299948849" />
     <state x="209" y="33" key="new project wizard" timestamp="1608188098094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
