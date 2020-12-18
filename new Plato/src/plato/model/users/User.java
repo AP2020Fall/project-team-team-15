@@ -25,8 +25,7 @@ public class User {
         this.friend_request = friend_request;
     }
 
-<<<<<<<<< Temporary merge branch 1
-=========
+
     public String getName() {
         return name;
     }
@@ -130,5 +129,5 @@ public class User {
     public void setFriend_request(List friend_request) {
         this.friend_request = friend_request;
     }
->>>>>>>>> Temporary merge branch 2
+
 }
