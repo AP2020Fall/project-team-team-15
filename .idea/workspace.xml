@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f50f2b-3b78-47f9-a434-a284bac4bdc0" name="Default Changelist" comment="excuse me for commiting all this class at the same time.&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time,">
-      <change beforePath="$PROJECT_DIR$/new Plato/src/plato/model/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/new Plato/src/plato/model/users/User.java" afterDir="false" />
-    </list>
+    <list default="true" id="c4f50f2b-3b78-47f9-a434-a284bac4bdc0" name="Default Changelist" comment="excuse me for commiting all this class at the same time.&#10;my commit was deleted,(&#10;i explain all at same time &#10;first i define all variable we need in user class then we create constructor,&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time," />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -350,7 +348,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608302540197</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="excuse me for commiting all this class at the same time.&#10;my commit was deleted,(&#10;i explain all at same time &#10;first i define all variable we need in user class then we create constructor,&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time,">
+      <created>1608302972492</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1608302972492</updated>
+    </task>
+    <task id="LOCAL-00040" summary="excuse me for commiting all this class at the same time.&#10;my commit was deleted,(&#10;i explain all at same time &#10;first i define all variable we need in user class then we create constructor,&#10;for all the variable we define in line 6 to 10,we create a getName_variable and setName_variable method using intellij command + N ,all of them are easy to understand ,JUST excuse me for commiting all at a same time,">
+      <created>1608303047424</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1608303047424</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +422,10 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="796" y="409" key="#Notifications" timestamp="1608303080460">
+      <screen x="0" y="23" width="1792" height="1032" />
+    </state>
+    <state x="796" y="409" key="#Notifications/0.23.1792.1032@0.23.1792.1032" timestamp="1608303080460" />
     <state x="320" y="90" key="#Project_Structure" timestamp="1607431281307">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
@@ -444,14 +460,14 @@
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="630" y="248" key="RollbackChangesDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607181274018" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1608302555363">
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1608303066105">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
     <state x="426" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608192792824" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1607454056806" />
     <state x="399" y="223" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1608123681458" />
     <state x="399" y="224" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1607505222580" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1608302555363" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/0.23.1792.1032@0.23.1792.1032" timestamp="1608303066105" />
     <state x="0" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1608124897930">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
@@ -462,10 +478,10 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="509" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.803@0.23.1440.803" timestamp="1607432159526" />
-    <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1607178375566">
+    <state x="543" y="334" key="git4idea.merge.GitPullDialog" timestamp="1608303055107">
       <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1607178375566" />
+    <state x="543" y="334" key="git4idea.merge.GitPullDialog/0.23.1792.1032@0.23.1792.1032" timestamp="1608303055107" />
     <state x="209" y="33" key="new project wizard" timestamp="1608188098094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
