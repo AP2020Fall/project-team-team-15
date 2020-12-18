@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -83,4 +84,7 @@ public class Checked {
             }
         }
     }
+=======
+public class Checked {
+>>>>>>> 0eb87e411422785c28af395faf42e1d137aed109
 }
