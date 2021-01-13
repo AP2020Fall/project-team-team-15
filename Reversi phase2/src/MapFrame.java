@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 
 public class MapFrame {
@@ -9,4 +10,66 @@ public class MapFrame {
     public static JLabel blackLbl = new JLabel();
     public static JLabel information = new JLabel();
     public static int player = 1;
+
+
+
+    public void createButtons() {
+        btns.add(tmp);   //برای به مشکل نخوردن با index صفر
+        int xDistance = 0; // برای قرارگیری مکان دکمه ها
+        int yDistance = 0; // برای قرارگیری مکان دکمه ها
+        for (int i = 0; i < 64; i++) {
+            JButton button = new JButton();
+            button.setOpaque(true);
+            button.setBorderPainted(false);
+
+            button.setBounds(10 + xDistance, 10 + yDistance, 60, 60);
+            if (i == 27 || i == 36) {
+                button.setBackground(Color.white);
+                button.setSize(58, 58); // واضح دیده شدن دکمه ها
+            } else if (i == 28 || i == 35) {
+                button.setBackground(Color.black);
+                button.setSize(58, 58); //واضح دیده شدن دکمه ها
+            } else {
+                button.setBackground(Color.pink);
+            }
+            btns.add(button);
+            frame.add(button);
+            if ((i + 1) % 8 == 0) {
+                xDistance = 0;
+                yDistance += 62;
+            } else {
+                xDistance += 62;
+            }
+            button.addActionListener(new Action());
+        }
+        JButton whiteBtn = new JButton();
+        whiteBtn.setBounds(70, 520, 60, 60);
+        whiteBtn.setOpaque(true);
+        whiteBtn.setBorderPainted(false);
+        whiteBtn.setBackground(Color.white);
+        frame.add(whiteBtn);
+
+        JButton blackBtn = new JButton();
+        blackBtn.setBounds(380, 520, 60, 60);
+        blackBtn.setOpaque(true);
+        blackBtn.setBorderPainted(false);
+        blackBtn.setBackground(Color.black);
+        frame.add(blackBtn);
+
+        JButton random = new JButton();
+        random.setBounds(220, 600, 60, 60);
+        random.setOpaque(true);
+        random.setBorderPainted(false);
+        random.setBackground(Color.green);
+        frame.add(random);
+        random.addActionListener(new Action());
+
+        JLabel randomLbl = new JLabel("Random");
+        randomLbl.setBounds(223, 570, 90, 30);
+        frame.add(randomLbl);
+
+
+
+    }
 }
+
