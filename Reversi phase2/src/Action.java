@@ -49,6 +49,32 @@ public class Action implements ActionListener {
             }
 
         }
+        if (((JButton) e.getSource()).getBackground() == Color.gray) {
+            int btnIndex = MapFrame.btns.indexOf(e.getSource()); // ذخیره index کلیک شده
+            ((JButton) e.getSource()).setSize(58, 58);
+            ((JButton) e.getSource()).setOpaque(true);
+            ((JButton) e.getSource()).setBorderPainted(false);
+            if (MapFrame.player == 1) {
+                ((JButton) e.getSource()).setBackground(Color.black);
+                for (int i = 1; i <= 64; i++) {
+                    if (MapFrame.btns.get(i).getBackground() == Color.gray) {
+                        MapFrame.btns.get(i).setBackground(Color.pink);
+                    }
+                }
+                MapFrame.information.setText("player 2");
+                MapFrame.player = 2;
+            } else {
+                ((JButton) e.getSource()).setBackground(Color.white);
+                for (int i = 1; i <= 64; i++) {
+                    if (MapFrame.btns.get(i).getBackground() == Color.gray) {
+                        MapFrame.btns.get(i).setBackground(Color.pink);
+                    }
+                }
+                MapFrame.information.setText("player 1");
+                MapFrame.player = 1;
+            }
+
+        }
 
     }
 }
