@@ -79,4 +79,75 @@ public class CheckMethodes {
 
     }
 
+    public static void checkMove(int start, int finish, int type, int counter) {
+        int cnt = 0;
+        for (int k = start; k < finish; k += counter) {
+            cnt = type + k;
+            for (int i = 1; i <= 64; i++) {
+                if (MapFrame.player == 1) {
+                    if (MapFrame.btns.get(i).getBackground() == Color.black) {
+                        int location = i;
+                        boolean flag = false;
+                        while (true) {
+                            if ((cnt == -9 || cnt == 7 || cnt == -1) && location % 8 == 0) {
+                                break;
+                            }
+                            if ((cnt == 9 || cnt == -7 || cnt == 1) && location % 8 == 1) {
+                                break;
+                            }
+                            if (location - cnt <= 0 || location - cnt > 64) {
+                                break;
+                            }
+                            if (MapFrame.btns.get(location - cnt).getBackground() == Color.pink) {
+                                if (flag) {
+                                    MapFrame.btns.get(location - cnt).setBackground(Color.gray);
+
+
+                                    break;
+                                } else {
+                                    break;
+                                }
+                            } else if (MapFrame.btns.get(location - cnt).getBackground() == Color.white) {
+                                flag = true;
+                            } else {
+                                break;
+                            }
+                            location -= cnt;
+                        }
+                    }
+                }
+
+                if (MapFrame.player == 2) {
+                    if (MapFrame.btns.get(i).getBackground() == Color.white) {
+                        int location = i;
+                        boolean flag = false;
+                        while (true) {
+                            if ((cnt == -9 || cnt == 7 || cnt == -1) && location % 8 == 0) {
+                                break;
+                            }
+                            if ((cnt == 9 || cnt == -7 || cnt == 1) && location % 8 == 1) {
+                                break;
+                            }
+                            if (location - cnt <= 0 || location - cnt > 64) {
+                                break;
+                            }
+                            if (MapFrame.btns.get(location - cnt).getBackground() == Color.pink) {
+                                if (flag) {
+                                    MapFrame.btns.get(location - cnt).setBackground(Color.gray);
+                                    break;
+                                } else {
+                                    break;
+                                }
+                            } else if (MapFrame.btns.get(location - cnt).getBackground() == Color.black) {
+                                flag = true;
+                            } else {
+                                break;
+                            }
+                            location -= cnt;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
