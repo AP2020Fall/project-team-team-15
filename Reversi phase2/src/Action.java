@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Action implements ActionListener {
+    Checked check = new Checked();
+
     @Override
     public void actionPerformed(ActionEvent e) {
 
@@ -47,8 +49,10 @@ public class Action implements ActionListener {
                 MapFrame.information.setText("player 1");
                 MapFrame.player = 1;
             }
-
+            check.possibleMove(grayBtn.get(btnIndex));
         }
+
+
         if (((JButton) e.getSource()).getBackground() == Color.gray) {
             int btnIndex = MapFrame.btns.indexOf(e.getSource()); // ذخیره index کلیک شده
             ((JButton) e.getSource()).setSize(58, 58);
@@ -73,8 +77,7 @@ public class Action implements ActionListener {
                 MapFrame.information.setText("player 1");
                 MapFrame.player = 1;
             }
-
+            check.possibleMove(btnIndex);
         }
-
     }
 }
