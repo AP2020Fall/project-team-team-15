@@ -1,4 +1,8 @@
 import java.awt.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Checked {
     static int whiteCnt = 0;
@@ -53,12 +57,29 @@ public class Checked {
 
                 if (whiteCnt < blackCnt) {
                     MapFrame.information.setText("player 1 won!!!");
+                    saveFile("Player 1");
                 } else if (whiteCnt > blackCnt) {
                     MapFrame.information.setText("player 2 won!!!");
+                    saveFile("Player 2");
                 } else {
                     MapFrame.information.setText("draw!!!");
+                    saveFile("none");
                 }
             }
+        }
+    }
+    public static void saveFile(String winner) {
+        try {
+            File f1 = new File("result.txt");
+            if (!f1.exists()) {
+                f1.createNewFile();
+            }
+            FileWriter fileWritter = new FileWriter(f1.getName(), true);
+            BufferedWriter bw = new BufferedWriter(fileWritter);
+            bw.write("winner: " + winner + " | " + "Player 1: " + blackCnt + " , Player 2: " + whiteCnt + "\n");
+            bw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
