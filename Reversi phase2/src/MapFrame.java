@@ -3,6 +3,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class MapFrame {
+    Checked check = new Checked();
     public static ArrayList<JButton> btns = new ArrayList<>();
     JButton tmp;
     JFrame frame;
@@ -11,7 +12,28 @@ public class MapFrame {
     public static JLabel information = new JLabel();
     public static int player = 1;
 
+    public MapFrame() {
+        this.frame = new JFrame();
+        frame.setSize(510, 700);
+        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
 
+        whiteLbl.setBounds(150, 530, 120, 40);
+        whiteLbl.setText("0");
+        frame.add(whiteLbl);
+
+        blackLbl.setBounds(340, 530, 30, 40);
+        blackLbl.setText("0");
+        frame.add(blackLbl);
+
+        information.setBounds(220, 530, 120, 40);
+        information.setText("player 1");
+        frame.add(information);
+
+        createButtons();
+
+        frame.setLayout(null);
+        frame.setVisible(true);
+    }
 
     public void createButtons() {
         btns.add(tmp);   //برای به مشکل نخوردن با index صفر
@@ -69,7 +91,6 @@ public class MapFrame {
         frame.add(randomLbl);
 
 
-
+        check.possibleMove(1);
     }
 }
-
