@@ -1,6 +1,5 @@
 package games.dot_and_box.controller;
 
-import games.dot_and_box.core.Game;
 import games.dot_and_box.core.InvalidMoveException;
 import games.dot_and_box.core.data.model.ConsolePlayer;
 import games.dot_and_box.core.data.model.Player;
