@@ -24,4 +24,24 @@ public class Board {
         this.n = n;
         redScore = blueScore = 0;
     }
-}
+
+    public Board clone() {
+        Board cloned = new Board(n);
+
+        for(int i=0; i<(n-1); i++)
+            for(int j=0; j<n; j++)
+                cloned.hEdge[i][j] = hEdge[i][j];
+
+        for(int i=0; i<n; i++)
+            for(int j=0; j<(n-1); j++)
+                cloned.vEdge[i][j] = vEdge[i][j];
+
+        for(int i=0; i<(n-1); i++)
+            for(int j=0; j<(n-1); j++)
+                cloned.box[i][j] = box[i][j];
+
+        cloned.redScore = redScore;
+        cloned.blueScore = blueScore;
+
+        return cloned;
+    }
