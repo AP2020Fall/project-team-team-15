@@ -104,4 +104,61 @@ public class Board {
         }
         return ret;
     }
+
+    public ArrayList<Point> setVEdge(int x, int y, int color) {
+        vEdge[x][y]=BLACK;
+        ArrayList<Point> ret = new ArrayList<Point>();
+        if(x<(n-1) && hEdge[x][y]==BLACK && hEdge[x][y+1]==BLACK && vEdge[x+1][y]==BLACK) {
+            box[x][y]=color;
+            ret.add(new Point(x,y));
+            if(color == RED) redScore++;
+            else blueScore++;
+        }
+        if(x>0 && hEdge[x-1][y]==BLACK && hEdge[x-1][y+1]==BLACK && vEdge[x-1][y]==BLACK) {
+            box[x-1][y]=color;
+            ret.add(new Point(x-1,y));
+            if(color == RED) redScore++;
+            else blueScore++;
+        }
+        return ret;
+    }
+
+    public boolean isComplete() {
+        return (redScore + blueScore) == (n - 1) * (n - 1);
+    }
+
+    public int getWinner() {
+        if(redScore > blueScore) return RED;
+        else if(redScore < blueScore) return BLUE;
+        else return BLANK;
+    }
+
+    public Board getNewBoard(Edge edge, int color) {
+        Board ret = clone();
+        if(edge.isHorizontal())
+            ret.setHEdge(edge.getX(), edge.getY(), color);
+        else
+            ret.setVEdge(edge.getX(), edge.getY(), color);
+        return ret;
+    }
+
+    private int getEdgeCount(int i, int j) {
+        int count = 0;
+        if(hEdge[i][j] == BLACK) count++;
+        if(hEdge[i][j+1] == BLACK) count++;
+        if(vEdge[i][j] == BLACK) count++;
+        if(vEdge[i+1][j] == BLACK) count++;
+        return count;
+    }
+
+    public int getBoxCount(int nSides) {
+        int count = 0;
+        for(int i=0; i<(n-1); i++)
+            for(int j=0; j<(n-1); j++) {
+                if(getEdgeCount(i, j) == nSides)
+                    count++;
+            }
+        return count;
+    }
+
 }
