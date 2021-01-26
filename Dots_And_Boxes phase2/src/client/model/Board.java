@@ -73,4 +73,35 @@ public class Board {
         else
             return RED;
     }
+
+    public ArrayList<Edge> getAvailableMoves() {
+        ArrayList<Edge> ret = new ArrayList<Edge>();
+        for(int i=0; i<(n-1);i++)
+            for(int j=0; j<n; j++)
+                if(hEdge[i][j] == BLANK)
+                    ret.add(new Edge(i,j,true));
+        for(int i=0; i<n; i++)
+            for(int j=0; j<(n-1); j++)
+                if(vEdge[i][j] == BLANK)
+                    ret.add(new Edge(i,j,false));
+        return ret;
+    }
+
+    public ArrayList<Point> setHEdge(int x, int y, int color) {
+        hEdge[x][y]=BLACK;
+        ArrayList<Point> ret = new ArrayList<Point>();
+        if(y<(n-1) && vEdge[x][y]==BLACK && vEdge[x+1][y]==BLACK && hEdge[x][y+1]==BLACK) {
+            box[x][y]=color;
+            ret.add(new Point(x,y));
+            if(color == RED) redScore++;
+            else blueScore++;
+        }
+        if(y>0 && vEdge[x][y-1]==BLACK && vEdge[x+1][y-1]==BLACK && hEdge[x][y-1]==BLACK) {
+            box[x][y-1]=color;
+            ret.add(new Point(x,y-1));
+            if(color == RED) redScore++;
+            else blueScore++;
+        }
+        return ret;
+    }
 }
