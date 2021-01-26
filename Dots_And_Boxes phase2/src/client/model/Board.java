@@ -45,3 +45,32 @@ public class Board {
 
         return cloned;
     }
+
+    private void fill(int[][] array, int val) {
+        for(int i=0; i<array.length; i++)
+            for(int j=0; j<array[i].length; j++)
+                array[i][j]=val;
+    }
+
+    public int getSize() { return n; }
+
+    public int getRedScore() {
+        return redScore;
+    }
+
+    public int getBlueScore() {
+        return blueScore;
+    }
+
+    public int getScore(int color) {
+        if(color == RED) return redScore;
+        else return blueScore;
+    }
+
+    public static int toggleColor(int color) {
+        if(color == RED)
+            return BLUE;
+        else
+            return RED;
+    }
+}
